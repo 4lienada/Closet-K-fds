@@ -1,0 +1,98 @@
+body{
+  height: 100vh;
+  background: linear-gradient(#e6d9cf 15%,#ffffff 50%);
+  /*background-color: #e6d9cf;*/
+  background-repeat: no-repeat;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+  min-height: 300vh;
+  padding: 0;
+}
+@font-face {
+  font-family: Mazement;
+  src: url(Mazement/Mazement-Regular.otf);
+}
+header{
+  background-color: transparent;
+  display: flex;
+  justify-content: unsafe;
+  padding: 2px 0;
+}
+
+.container-logo{
+  display: flex;
+  justify-content: start;
+  margin-left: 2.2rem;
+}
+
+.logo-texto{
+  font-size:30px;
+  margin-left: 20px;
+  color:#6a3611;
+}
+
+.menu li{
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.menu li a{
+  justify-content: center;
+  font-family: Inter;
+  font-size:20px;
+  text-decoration: none;
+  color:#6a3611;
+  text-decoration: uppercase;
+  padding: 10px 15px;
+  border-radius: 10px;
+  transition:  background-color 0.1s ease, color 0.1s ease, transform 0.2s ease, scale 0.1s ease;
+}
+
+.menu li a:hover{
+  background-color: transparent;
+  color: white;
+}
+
+ul{
+width: 150vh;
+display: flex;
+flex-direction: row;
+justify-content: center;
+left: 75px;
+position: relative; top:-5.5rem;
+}
+
+.material-icons.favorite{
+  position: relative; left: 110%; top: 3.5rem;
+  cursor: pointer;
+}
+.material-icons.favorite:hover{
+  color: #ffffff;
+}
+.material-icons.shopping{
+  position: relative; left: 107%;top: 3.5rem;
+  cursor: pointer;
+}
+.material-icons.shopping:hover{
+  color: #ffffff;
+}
+.icons{
+  width: 60px;
+  transition: scale 0.1s ease;
+}
+.icons:hover{
+  transform: scale(1.1);
+}
+
+.home{
+  width: 35px;
+  transition: scale 0.1s ease;
+  position: relative; left: -350px;
+  top: -13px;
+}
+.home:hover{
+  transform: scale(1.1);
+}
+
